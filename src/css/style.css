@@ -9,3 +9,13 @@ body{
 .header{
     background-color: rgb(59,130, 246);
 }
+
+#txtUsuario{
+    float:right;
+    margin: 2rem;
+}
+.logo{
+    
+    height: 4rem;
+    margin: 1rem;   
+}
