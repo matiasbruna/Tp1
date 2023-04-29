@@ -19,3 +19,15 @@ body{
     height: 4rem;
     margin: 1rem;   
 }
+.container{
+    background-color: white;
+
+}
+.imgPerfil{
+    width: 50%;
+    margin:2rem;
+}
+.imgPublicacion{
+    width: 50%;
+    margin:2rem;
+}
