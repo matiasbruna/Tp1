@@ -14,29 +14,8 @@ function Seguir(){
     else{
         document.getElementById("btnSeguir").innerHTML="Seguir";
         document.getElementById("btnSeguir").style.color="white";
-        document.getElementById("btnSeguir").style.background="rgb(59,130, 246)";
-       
+        document.getElementById("btnSeguir").style.background="rgb(59,130, 246)";       
     }  
-
 }
 
-/*Evento click caja cambio de color */
-const color=document.getElementsById("btnSeguir");
-/*const caja=document.getElementsByIdbtn-primary");*/
 
-let contador=0;
-color.addEventListener("click",CambiarColor,true)
-
-function CambiarColor(){
-   if(contador==0){
-
-
-    caja.classList.add=('rojo');
-    contador=-1;
-
-   }
-   else{
-    caja.classList.remove('rojo');
-    contador=0;
-   }
-}
