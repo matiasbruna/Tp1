@@ -41,3 +41,6 @@ body{
     position: relative;
     bottom: -13rem;
 }
+.btn.rojo{
+    background-color: red;
+}
