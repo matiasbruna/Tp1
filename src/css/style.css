@@ -19,3 +19,25 @@ body{
     height: 4rem;
     margin: 1rem;   
 }
+.container{
+    background-color: white;
+
+}
+.imgPerfil{
+    width: 100%;
+    margin:1rem;
+}
+.imgPublicacion{
+    width: 50%;
+    margin:2rem;
+}
+.gris{
+    color: grey;
+}
+.btn{
+    float: right;
+    
+    margin: 1.5rem;
+    position: relative;
+    bottom: -13rem;
+}
