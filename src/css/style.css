@@ -19,7 +19,7 @@ body{
     height: 4rem;
     margin: 1rem;   
 }
-.container{
+.container-color{
     background-color: white;
 
 }
@@ -28,16 +28,24 @@ body{
     margin:1rem;
 }
 .imgPublicacion{
-    width: 50%;
+    width: 90%;
     margin:2rem;
 }
 .gris{
     color: grey;
 }
-.btn{
+.btnSeguir{
     float: right;
     
     margin: 1.5rem;
     position: relative;
     bottom: -13rem;
+}
+h5{
+    
+    position: relative;
+    bottom: -1rem;
+}
+#txtLike{
+    float: right;
 }
