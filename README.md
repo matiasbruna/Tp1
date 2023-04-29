@@ -5,6 +5,6 @@ Tecnicatura en proramacion Univercitaria, dicatada por la Univercidad UTN San Fr
 Los integrantres del TP1 son: 
   * Matias Bruna.
   * Ignacio Corsini.
-  * Javier Raceto.
+  * Javier Rassetto.
   
  
