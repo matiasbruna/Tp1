@@ -2,6 +2,11 @@
     font-family: Montserrat;
     src: url(./font/Montserrat.ttf);
 }
+html,body
+{
+    margin:0px;
+    padding: 0px;
+}
 body{
     font-family: Montserrat;
     background-color: rgb(244, 244, 245); 
@@ -34,12 +39,15 @@ body{
 .gris{
     color: grey;
 }
-.btnSeguir{
-    float: right;
-    
+.btnSeguir{    
+    float: right;    
     margin: 1.5rem;
     position: relative;
-    bottom: -13rem;
+   bottom: -13rem;
+}
+/* Ver caja boton seguir */
+.col-sm{
+    margin: 100px;
 }
 h5{
     
@@ -48,4 +56,20 @@ h5{
 }
 #txtLike{
     float: right;
+}
+.container
+{
+    margin-top: 1.8rem;
+}
+.btn-eliminarCometario
+{
+    color: red;
+    background-color:rgb(228, 222, 222);
+    border: beige;
+    border-radius: 7px;
+}
+.form-control-sm.comment
+{
+    width: 400px;
+    margin-bottom: 50px;
 }
