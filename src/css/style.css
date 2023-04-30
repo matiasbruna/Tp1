@@ -49,3 +49,7 @@ h5{
 #txtLike{
     float: right;
 }
+.btn-outline-primary{
+    color:brown;
+    background-color: darkcyan;
+}
