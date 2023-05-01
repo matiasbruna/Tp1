@@ -76,3 +76,9 @@ h5{
     color:brown;
     background-color: darkcyan;
 }
+.abs-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
