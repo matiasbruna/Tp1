@@ -2,22 +2,37 @@
     font-family: Montserrat;
     src: url(./font/Montserrat.ttf);
 }
+html,body
+{
+    margin:0px;
+    padding: 0px;
+}
 body{
     font-family: Montserrat;
     background-color: rgb(244, 244, 245); 
 }
 .header{
-    background-color: rgb(59,130, 246);
+    background-color: rgb(59,130, 246);    
+    padding-right: 50px;
 }
 
 #txtUsuario{
     float:right;
     margin: 2rem;
+    border-radius: 15px;
+    border-color:rgb(59,130, 246);     
+    background-color:rgb(208, 226, 241);
+    height: 3em;
+    width: 15em; 
+    padding-left: 15px;    
+}
+#txtUsuario::placeholder{
+    color: blue;    
 }
 .logo{
     
     height: 4rem;
-    margin: 1rem;   
+    margin: 1rem;      
 }
 .container-color{
     background-color: white;
@@ -26,6 +41,7 @@ body{
 .imgPerfil{
     width: 100%;
     margin:1rem;
+    
 }
 .imgPublicacion{
     width: 90%;
@@ -34,12 +50,19 @@ body{
 .gris{
     color: grey;
 }
-.btnSeguir{
-    float: right;
-    
-    margin: 1.5rem;
+.btnSeguir{    
+    float: right !important;
+    margin: 1.5rem;   
     position: relative;
-    bottom: -13rem;
+    bottom: -13rem;  
+  
+}
+/* Ver caja boton seguir */
+.col-sm{
+    float: right;
+    margin-top: 13rem;
+    padding-left: 8rem;
+    padding-top: 15px;
 }
 h5{
     
