@@ -1,12 +1,31 @@
-window.onload = iniciar;
-function iniciar() {
 let btnMeGusta = document.getElementById("btnMeGusta");
-let contadorLikes = document.getElementById("txtLike");
-let likes = 200 + 1;
-let texto = " Likes";
+let likes = 0;
+
 
 btnMeGusta.addEventListener("click", function(){
-    likes;
-    contadorLikes.innerHTML = "<b>" + likes + texto + "</b>";
-})
-}
+    if(likes === 0) {
+        likes = 1;
+        
+        btnMeGusta.innerHTML = "No Me Gusta";
+        btnMeGusta.classList.remove("like");
+        btnMeGusta.classList.add("dislike");
+        btnMeGusta.classList.add("cambio");
+        let eventoLikes = document.getElementById("txtLike");
+        contFinal = "<strong>" + 201 + " Likes" + "</strong>";
+        eventoLikes.innerHTML = contFinal;
+    }
+    else {
+        likes = 0;
+        
+        btnMeGusta.innerHTML = "Me Gusta";
+        btnMeGusta.classList.remove("dislike");
+        btnMeGusta.classList.add("like");
+        btnMeGusta.classList.add("cambio");
+        let eventoLikes = document.getElementById("txtLike");
+        contFinal = "<strong>" + 200 + " Likes" + "</strong>";
+        eventoLikes.innerHTML = contFinal;
+    }
+
+});
+
+

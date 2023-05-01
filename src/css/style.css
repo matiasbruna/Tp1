@@ -49,3 +49,13 @@ h5{
 #txtLike{
     float: right;
 }
+
+#btnMeGusta.dislike.cambio{
+    background-color: transparent;
+    color: black;
+    font-weight: bold;
+}
+
+#btnMeGusta {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
