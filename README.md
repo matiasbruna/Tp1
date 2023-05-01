@@ -6,7 +6,7 @@ Dicho proyecto es realizado por tres integrantes(__MATIAS BRUNA, IGNACIO CORSINI
 
 A continuación se mostrará una imagen con lo mencionado anteriormente, para poder apreciar todo lo que se ha trabajado, usando IDE como VISUAL STUDIO CODE - aplicando Html, Css y  Javascript. También se utilizo Git Bush, haciendo uso de la terminal para poder ir modificando el proyecto en base de los objetivos planteados.
 
-![Captura de pantalla (36)](https://user-images.githubusercontent.com/105394534/235529757-9b76f00f-9500-4dac-a8e2-e2bb5cd05bc0.png)
+
 
 
 
