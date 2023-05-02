@@ -21,7 +21,7 @@ function subirComentario(evento) {
     {
         console.log("No hay nada en la caja");
     }  
-    document.getElementById("txtComentarios").value="";/*borro el texto de txt comentario*/
+    document.getElementById("txtComentarios").innerHTML="";/*borro el texto de txt comentario*/
 
 
    /*Prueba*/ 

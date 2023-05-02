@@ -11,7 +11,7 @@ btnMeGusta.addEventListener("click", function(){
         btnMeGusta.classList.add("dislike");
         btnMeGusta.classList.add("cambio");
         let eventoLikes = document.getElementById("txtLike");
-        contFinal = "<strong>" + 201 + " Likes" + "</strong>";
+        let contFinal = "<strong>" + 201 + " Likes" + "</strong>";
         eventoLikes.innerHTML = contFinal;
     }
     else {
@@ -22,7 +22,7 @@ btnMeGusta.addEventListener("click", function(){
         btnMeGusta.classList.add("like");
         btnMeGusta.classList.add("cambio");
         let eventoLikes = document.getElementById("txtLike");
-        contFinal = "<strong>" + 200 + " Likes" + "</strong>";
+        let contFinal = "<strong>" + 200 + " Likes" + "</strong>";
         eventoLikes.innerHTML = contFinal;
     }
 
