@@ -8,8 +8,7 @@ document.getElementById("btnSeguir").onclick= function(){
 function Seguir(){   
    if(document.getElementById("btnSeguir").innerHTML=="Seguir") {
    document.getElementById("btnSeguir").innerHTML="Dejar de Seguir";
-   document.getElementById("btnSeguir").style.background="darkblue";
-   document.getElementById("btnSeguir").style.color="white";
+   document.getElementById("btnSeguir").style.backgroundColor="blue";
     }
     else{
         document.getElementById("btnSeguir").innerHTML="Seguir";
@@ -19,3 +18,19 @@ function Seguir(){
 }
 
 
+let contador=0;
+color.addEventListener("click",CambiarColor,true)
+
+function CambiarColor(){
+   if(contador==0){
+
+    color.style.innerHTML
+    caja.classList.add=('rojo');
+    contador=-1;
+
+   }
+   else{
+    caja.classList.remove('rojo');
+    contador=0;
+   }
+}

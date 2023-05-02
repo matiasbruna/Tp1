@@ -2,18 +2,22 @@
     font-family: Montserrat;
     src: url(./font/Montserrat.ttf);
 }
-html,body
+/* html,body
 {
     margin:0px;
     padding: 0px;
-}
+} */
 body{
     font-family: Montserrat;
     background-color: rgb(244, 244, 245); 
 }
 .header{
     background-color: rgb(59,130, 246);    
-    padding-right: 50px;
+
+}
+.logo {
+    max-height: 50px;
+    margin-top: 25px;
 }
 
 #txtUsuario{
@@ -24,39 +28,56 @@ body{
     background-color:rgb(208, 226, 241);
     height: 3em;
     width: 15em; 
-    padding-left: 15px;    
+    padding-left: 0px;    
+    margin-left: 3rem;
 }
 #txtUsuario::placeholder{
     color: blue;    
 }
-.logo{
-    
-    height: 4rem;
-    margin: 1rem;      
-}
+
 .container-color{
     background-color: white;
 
 }
 .imgPerfil{
     width: 100%;
-    margin:1rem;
+    object-fit: contain;
+    display: block;
+    margin: 0.5 auto;
     
+}
+@media (max-width: 576px) {
+    .imgPerfil {
+        width: 90%;
+        height: 90%;
+        object-fit: contain;
+        display: block;
+        margin: 0 auto;
+    }
+}
+.datos{
+    text-align: left;
+    padding-left: 0rem;
+}
+h2{
+    margin-top: 2rem;
+}
+#btnSeguir{    
+
+    position: absolute; 
+    bottom: 40px; 
+    right: 50px
 }
 .imgPublicacion{
     width: 90%;
     margin:2rem;
+    margin:1rem;
 }
 .gris{
     color: grey;
 }
-.btnSeguir{    
-    float: right !important;
-    margin: 1.5rem;   
-    position: relative;
-    bottom: -13rem;  
-  
-}
+
+
 /* Ver caja boton seguir */
 .col-sm{
     float: right;
@@ -72,13 +93,25 @@ h5{
 #txtLike{
     float: right;
 }
-
-#btnMeGusta.dislike.cambio{
-    background-color: transparent;
-    color: black;
-    font-weight: bold;
+.btn-outline-primary{
+    color:brown;
+    background-color: rgb(59,130, 246);
 }
-
-#btnMeGusta {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+.abs-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+.btn-eliminarCometario
+{
+    color: red;
+    background-color:rgb(228, 222, 222);
+    border: beige;
+    border-radius: 7px;
+}
+.form-control-sm.comment
+{
+    width: 400px;
+    margin-bottom: 40px;
 }
