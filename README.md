@@ -7,4 +7,4 @@ Dicho proyecto es realizado por tres integrantes(__MATIAS BRUNA, IGNACIO CORSINI
 A continuación se mostrará una imagen con lo mencionado anteriormente, para poder observar todo lo que se ha trabajado, usando IDE como VISUAL STUDIO CODE - aplicando Html, Css y  Javascript. También se utilizó Git Bash, haciendo uso de la terminal para poder ir modificando el proyecto en base de los objetivos planteados.
 
 
-
+![Red social GLOBO](https://github.com/matiasbruna/Tp1-Globo/blob/dev/Captura%20de%20pantalla%20(36).png)
