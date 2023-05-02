@@ -82,3 +82,15 @@ h5{
     justify-content: center;
     min-height: 100vh;
   }
+  .btn-eliminarCometario
+{
+    color: red;
+    background-color:rgb(228, 222, 222);
+    border: beige;
+    border-radius: 7px;
+}
+.form-control-sm.comment
+{
+    width: 400px;
+    margin-bottom: 40px;
+}
