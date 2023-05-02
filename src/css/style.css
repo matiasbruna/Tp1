@@ -41,23 +41,43 @@ body{
 }
 .imgPerfil{
     width: 100%;
-    margin:1rem;
+    object-fit: contain;
+    display: block;
+    margin: 0.5 auto;
     
+}
+@media (max-width: 576px) {
+    .imgPerfil {
+        width: 90%;
+        height: 90%;
+        object-fit: contain;
+        display: block;
+        margin: 0 auto;
+    }
+}
+.datos{
+    text-align: left;
+    padding-left: 0rem;
+}
+h2{
+    margin-top: 2rem;
+}
+#btnSeguir{    
+
+    position: absolute; 
+    bottom: 40px; 
+    right: 50px
 }
 .imgPublicacion{
     width: 90%;
     margin:2rem;
+    margin:1rem;
 }
 .gris{
     color: grey;
 }
-.btnSeguir{    
-    float: right !important;
-    margin: 1.5rem;   
-    position: relative;
-    bottom: -13rem;  
-  
-}
+
+
 /* Ver caja boton seguir */
 .col-sm{
     float: right;
