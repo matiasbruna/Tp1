@@ -30,7 +30,7 @@ body{
     background-color:rgb(208, 226, 241);
     height: 3em;
     width: 15em; 
-    padding-left: 15px;    
+    padding-left: 50px;    
 }
 #txtUsuario::placeholder{
     color: blue;    
