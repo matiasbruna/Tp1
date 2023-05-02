@@ -8,7 +8,7 @@ document.getElementById("btnSeguir").onclick= function(){
 function Seguir(){   
    if(document.getElementById("btnSeguir").innerHTML=="Seguir") {
    document.getElementById("btnSeguir").innerHTML="Dejar de Seguir";
-   document.getElementById("btnSeguir").style.backgroundColor="black";
+   document.getElementById("btnSeguir").style.backgroundColor="blue";
     }
     else{
         document.getElementById("btnSeguir").innerHTML="Seguir";
