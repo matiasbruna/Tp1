@@ -7,12 +7,12 @@ function subirComentario(evento) {
     
     evento.preventDefault();
 
-    let comenrario = document.getElementById("txtComentarios").value;
+    let comentario = document.getElementById("txtComentarios").value;
     let usuario = document.getElementById("txtUsuario").value;
     LimpiarAlerta();
     if(usuario!=="")
     {
-        if(comenrario!="")
+        if(comentario!="")
         {    
 
             let div = document.getElementById("divComentarios");    
@@ -22,9 +22,9 @@ function subirComentario(evento) {
             usuarioNegrita.style.marginRight = "10px"
             usuarioNegrita.style.display = "inline-block";
             //crea el elemento p y agrega espacios
-            comenrario = " " + comenrario + "  ";
+            comentario = " " + comentario + "  ";
             let p = document.createElement("p");
-            p.textContent = comenrario;
+            p.textContent = comentario;
             p.style.marginRight = "10px"
             p.style.display = "inline-block";
             //crea el boton 
