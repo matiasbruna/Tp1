@@ -80,7 +80,7 @@ h5{
 }
 .btn-outline-primary{
     color:brown;
-    background-color: darkcyan;
+    background-color: rgb(59,130, 246);
 }
 .abs-center {
     display: flex;
