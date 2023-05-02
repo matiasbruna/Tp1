@@ -4,47 +4,86 @@ let botonComent = document.getElementById("btnComentar")
 botonComent.addEventListener("click", subirComentario)
 
 function subirComentario(evento) {
-    /*alert("cometario")*/
+    
     evento.preventDefault();
-    if(document.getElementById("txtUsuario").value!=="")
-    {
-        if(document.getElementById("txtComentarios").value!="")
-        {             
-        
-            let comentario = document.getElementById("txtComentarios").value;
-            let usuario=document.getElementById("txtUsuario").value; 
-            usuario= usuario+ " ";
-            let User=document.createTextNode(usuario+" ");
-            let comet=document.createTextNode(" "+comentario);
-            let parrafo=document.createElement('strong');
-            let comme=document.createElement('p');
-            parrafo.appendChild(User);   
-            comme.appendChild(comet);             
-            document.getElementById("comment-box").appendChild(parrafo);
-            document.getElementById("comment-box").appendChild(comet) 
-            document.getElementById("txtComentarios").value="";/*borro el texto de txt comentario*/
-            /*document.getElementById("comment-box").appendChild("") */    
 
-            /*Boton eliminar*/   
-                                        
-            let BtnBorrarComent = document.createElement('button');                                                 
-            BtnBorrarComent.textContent = "Eliminar";
-            BtnBorrarComent.style.backgroundColor = "white";
-            BtnBorrarComent.style.color = "red";
-            BtnBorrarComent.style.borderRadius = "2px";
-            BtnBorrarComent.style.border = "1px solid ";                  
-            document.body.appendChild(BtnBorrarComent)
+    let comenrario = document.getElementById("txtComentarios").value;
+    let usuario = document.getElementById("txtUsuario").value;
+    LimpiarAlerta();
+    if(usuario!=="")
+    {
+        if(comenrario!="")
+        {    
+
+            let div = document.getElementById("divComentarios");    
+            //crea el elemento strong 
+            let usuarioNegrita = document.createElement("strong");
+            usuarioNegrita.textContent = usuario + ":";
+            usuarioNegrita.style.marginRight = "10px"
+            usuarioNegrita.style.display = "inline-block";
+            //crea el elemento p y agrega espacios
+            comenrario = " " + comenrario + "  ";
+            let p = document.createElement("p");
+            p.textContent = comenrario;
+            p.style.marginRight = "10px"
+            p.style.display = "inline-block";
+            //crea el boton 
+            let btnEliminar = document.createElement('button');
+            btnEliminar.textContent= "Eliminar"  
+            btnEliminar.style.backgroundColor = "white";
+            btnEliminar.style.color = "red";
+            btnEliminar.style.borderRadius = "2px";
+            btnEliminar.style.border = "1px solid ";          
+            btnEliminar.style.display = "inline-block";
+            // creo un espacio.
+            let br = document.createElement('br')
             
+            //Agrego todo lo creado
+            div.appendChild(usuarioNegrita)
+            div.appendChild(p);
+            div.appendChild(btnEliminar);
+            div.appendChild(br)
+
+            // evento eliminar 
+            btnEliminar.addEventListener('click',function(){
+                div.removeChild(usuarioNegrita);
+                div.removeChild(p);
+                div.removeChild(btnEliminar);
+                div.removeChild(br);
+            });
+           
         }
         else
         {
-            alert("Comentario vacio"); 
+            Alerta("Debe ingresar un comentario primero!!");
         }   
     }
     else
     {
-        alert("Debe registrarse"); 
+        Alerta("Debe ingresar un usuario!");
     }  
     document.getElementById("txtComentarios").value="";
 
+
 }
+
+function Alerta(txt){
+    let divAlert = document.getElementById("divAlerta");
+    let p = document.createElement("p");
+    p.textContent = txt;
+    p.style.color = "red"
+    divAlert.appendChild(p);
+}
+function LimpiarAlerta(){
+    let divAlert = document.getElementById("divAlerta");
+    
+    if (divAlert.querySelector("p")){
+
+        let parrafos = divAlert.getElementsByTagName("p");
+
+        for (var i = 0; i < parrafos.length; i++) {
+         divAlert.removeChild(parrafos[i]);
+        }
+    }
+}
+
