@@ -51,6 +51,9 @@ function subirComentario(evento) {
                 div.removeChild(btnEliminar);
                 div.removeChild(br);
             });
+
+            // Elimina el texto de la caja comentarios
+            document.getElementById("txtComentarios").value = "";
            
         }
         else
