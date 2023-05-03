@@ -2,11 +2,6 @@
     font-family: Montserrat;
     src: url(./font/Montserrat.ttf);
 }
-/* html,body
-{
-    margin:0px;
-    padding: 0px;
-} */
 body{
     font-family: Montserrat;
     background-color: rgb(244, 244, 245); 
@@ -114,4 +109,5 @@ h5{
 {
     width: 400px;
     margin-bottom: 40px;
+    margin-left: 20px;
 }

@@ -77,6 +77,7 @@ function Alerta(txt){
     let p = document.createElement("p");
     p.textContent = txt;
     p.style.color = "red"
+    p.style.marginLeft= "6px"
     divAlert.appendChild(p);
 }
 function LimpiarAlerta(){
