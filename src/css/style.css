@@ -84,6 +84,7 @@ h5{
     
     position: relative;
     bottom: -1rem;
+    margin-left: 1rem;
 }
 #txtLike{
     float: right;
