@@ -33,7 +33,7 @@ function subirComentario(evento) {
             btnEliminar.style.backgroundColor = "white";
             btnEliminar.style.color = "red";
             btnEliminar.style.borderRadius = "2px";
-            btnEliminar.style.border = "1px solid ";          
+            btnEliminar.style.border = "2px solid beige ";          
             btnEliminar.style.display = "inline-block";
             // creo un espacio.
             let br = document.createElement('br')
@@ -56,12 +56,14 @@ function subirComentario(evento) {
         else
         {
             Alerta("Debe ingresar un comentario primero!!");
+            
         }   
     }
     else
     {
         Alerta("Debe ingresar un usuario!");
-    }  
+        
+    }    
 
 
 

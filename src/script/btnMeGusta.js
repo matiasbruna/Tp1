@@ -7,6 +7,7 @@ btnMeGusta.addEventListener("click", function(){
         likes = 1;
         
         btnMeGusta.innerHTML = "No Me Gusta";
+        btnMeGusta.style.background="blue"
         btnMeGusta.classList.remove("like");
         btnMeGusta.classList.add("dislike");
         btnMeGusta.classList.add("cambio");
@@ -18,6 +19,7 @@ btnMeGusta.addEventListener("click", function(){
         likes = 0;
         
         btnMeGusta.innerHTML = "Me Gusta";
+        btnMeGusta.style.background="rgb(59,130, 246)";
         btnMeGusta.classList.remove("dislike");
         btnMeGusta.classList.add("like");
         btnMeGusta.classList.add("cambio");

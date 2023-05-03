@@ -28,7 +28,7 @@ body{
     background-color:rgb(208, 226, 241);
     height: 3em;
     width: 15em; 
-    padding-left: 0px;    
+    padding-left: 15px;    
     margin-left: 3rem;
 }
 #txtUsuario::placeholder{
@@ -66,7 +66,7 @@ h2{
 
     position: absolute; 
     bottom: 40px; 
-    right: 50px
+    
 }
 .imgPublicacion{
     width: 90%;
@@ -77,13 +77,13 @@ h2{
     color: grey;
 }
 
-
-/* Ver caja boton seguir */
 .col-sm{
     float: right;
     margin-top: 13rem;
     padding-left: 8rem;
     padding-top: 15px;
+    
+    
 }
 h5{
     
@@ -94,7 +94,7 @@ h5{
     float: right;
 }
 .btn-outline-primary{
-    color:brown;
+    color:white;
     background-color: rgb(59,130, 246);
 }
 .abs-center {
