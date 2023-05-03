@@ -58,18 +58,13 @@ function subirComentario(evento) {
         }
         else
         {
-            Alerta("Debe ingresar un comentario primero!!");
-            
+            Alerta("Debe ingresar un comentario primero!!");     
         }   
     }
     else
     {
-        Alerta("Debe ingresar un usuario!");
-        
+        Alerta("Debe ingresar un usuario!"); 
     }    
-
-
-
 }
 
 function Alerta(txt){

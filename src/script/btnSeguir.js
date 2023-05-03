@@ -23,11 +23,9 @@ color.addEventListener("click",CambiarColor,true)
 
 function CambiarColor(){
    if(contador==0){
-
     color.style.innerHTML
     caja.classList.add=('rojo');
     contador=-1;
-
    }
    else{
     caja.classList.remove('rojo');

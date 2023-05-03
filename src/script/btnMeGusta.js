@@ -1,7 +1,6 @@
 let btnMeGusta = document.getElementById("btnMeGusta");
 let likes = 0;
 
-
 btnMeGusta.addEventListener("click", function(){
     if(likes === 0) {
         likes = 1;
